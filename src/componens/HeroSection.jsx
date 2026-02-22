@@ -1,9 +1,9 @@
 // components/HeroSection.jsx
-import React from 'react';
+import React from "react";
 
 const HeroSection = () => {
   return (
-    <section 
+    <section
       className="
         relative min-h-screen flex items-center justify-center
         bg-cover bg-center bg-no-repeat
@@ -28,7 +28,8 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl text-gray-200 font-medium mb-8 md:mb-10 drop-shadow-md max-w-2xl mx-auto">
-          Nikmati kesegaran minuman alami dan kelezatan makanan rumahan yang bikin nagih. Siap memanjakan lidahmu setiap hari!
+          Nikmati kesegaran minuman alami dan kelezatan makanan rumahan yang
+          bikin nagih. Siap memanjakan lidahmu setiap hari!
         </p>
 
         {/* Tombol CTA (bisa link ke menu / pesan sekarang) */}

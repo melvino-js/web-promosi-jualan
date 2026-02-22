@@ -10,7 +10,7 @@ const Card = ({
 }) => {
   return (
     <div
-    id="card"
+      id="card"
       className={`
         bg-blue-200 rounded-xl shadow-md overflow-hidden 
         hover:shadow-xl transition-shadow duration-300 
@@ -19,17 +19,16 @@ const Card = ({
       onClick={onClick}
     >
       {/* Gambar – src langsung dari props */}
-      
-        <img
-          src={src}
-          alt={name}
-          className="w-full h-100 object-cover "
-          onError={(e) => {
-            e.target.src =
-              "https://via.placeholder.com/400x300?text=Gambar+Tidak+Ada";
-          }}
-        />
-      
+
+      <img
+        src={src}
+        alt={name}
+        className="w-full h-100 object-cover "
+        onError={(e) => {
+          e.target.src =
+            "https://via.placeholder.com/400x300?text=Gambar+Tidak+Ada";
+        }}
+      />
 
       {/* Konten teks */}
       <div className="p-5">

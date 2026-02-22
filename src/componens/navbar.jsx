@@ -30,7 +30,7 @@ const Navbar = () => {
                 transition-all duration-200
                 flex items-center gap-2 text-sm sm:text-base
               "
-              onClick={() => window.location.href = ""}
+              onClick={() => (window.location.href = "")}
             >
               <svg
                 className="w-6 h-6 text-green-500" // ganti warna sesuai tema biru muda kalau mau

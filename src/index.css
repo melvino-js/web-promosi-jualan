@@ -15,10 +15,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-*,html,body{
+*,
+html,
+body {
   scroll-behavior: smooth;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
